@@ -220,11 +220,11 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="flex-1 relative z-10 pt-28 sm:pt-32">
-        <section className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 pt-14 pb-24 sm:pb-28 text-center space-y-8">
+      <main className="flex-1 relative z-10 pt-20 sm:pt-24">
+        <section className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-22 sm:pb-24 text-center space-y-8">
           <div className="flex justify-center">
-            <div className="h-20 w-20 rounded-full overflow-hidden border-2 border-slate-200 shadow-card">
-              <Image src="/avatar.svg" alt="Profile photo" width={80} height={80} />
+            <div className="h-36 w-36 rounded-full overflow-hidden border-2 border-slate-200 shadow-card">
+              <Image src="/profile.png" alt="Profile photo" width={144} height={144} />
             </div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight text-slate-900">
@@ -296,7 +296,7 @@ export default function Home() {
 
         <section
           id="projects"
-          className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 py-16 sm:py-20 space-y-10"
+          className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 py-10 sm:py-14 space-y-10"
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold text-center">Projects</h2>
 
