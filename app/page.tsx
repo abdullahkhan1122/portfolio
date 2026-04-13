@@ -116,7 +116,7 @@ const projects = [
   {
     title: "Hospital Management System",
     summary:
-      "C++ console system to manage doctors, patients, and appointments. Stores doctor/patient records and books visits by doctor ID. Admin login: admin / admin123.",
+      "C++ console system to manage doctors, patients, and appointments. Stores doctor/patient records and books visits by doctor ID.",
     github: "https://github.com/abdullahkhan1122/Hospital_Management_System",
     badge: "C++ · Data Structures",
 
@@ -176,14 +176,28 @@ export default function Home() {
     <div className="relative flex flex-col min-h-screen text-slate-900 overflow-hidden bg-white">
 
       <header className="w-full fixed inset-x-0 top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100">
-        <nav className="relative mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16 py-3">
-          <div className="flex items-center gap-4 w-full">
-            <span className="text-lg sm:text-xl font-semibold tracking-tight whitespace-nowrap">
-              Muhammad Abdullah
-            </span>
+        <nav className="relative mx-auto w-full max-w-6xl px-4 sm:px-8 lg:px-12 py-3">
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full">
+            <div className="flex items-center w-full sm:w-auto justify-between sm:justify-start gap-3">
+              <span className="text-lg sm:text-xl font-semibold tracking-tight whitespace-nowrap">
+                Muhammad Abdullah
+              </span>
+              <div className="flex items-center gap-2 sm:hidden">
+                {socials.map((social) => (
+                  <a
+                    key={social.label}
+                    href={social.href}
+                    className="p-2 rounded-full border border-slate-300 bg-white shadow-card transition hover:border-teal-500"
+                    aria-label={social.label}
+                  >
+                    <Image src={social.icon} alt={social.label} width={18} height={18} />
+                  </a>
+                ))}
+              </div>
+            </div>
 
-            <div className="absolute left-1/2 -translate-x-1/2">
-              <div className="glass pill px-2 py-1.5 flex items-center gap-1 shadow-card">
+            <div className="w-full sm:flex-1 flex justify-center">
+              <div className="glass pill px-2 py-1.5 flex items-center gap-1 shadow-card w-full sm:w-auto max-w-xl justify-center">
                 {navItems.map((item) => {
                   const isActive = activeSection === item.href.replace("#", "");
                   return (
@@ -204,7 +218,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-center gap-3 justify-end flex-1">
+            <div className="hidden sm:flex items-center gap-3 justify-end">
               {socials.map((social) => (
                 <a
                   key={social.label}
