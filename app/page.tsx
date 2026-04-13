@@ -179,9 +179,9 @@ export default function Home() {
         <nav className="relative mx-auto w-full max-w-6xl px-4 sm:px-8 lg:px-12 py-3">
           <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full">
             <div className="flex items-center w-full sm:w-auto justify-between sm:justify-start gap-3">
-              <span className="text-lg sm:text-xl font-semibold tracking-tight whitespace-nowrap">
-                Muhammad Abdullah
-              </span>
+              <div className="h-10 w-10 rounded-full bg-slate-900 text-white flex items-center justify-center text-sm font-bold">
+                MA
+              </div>
               <div className="flex items-center gap-2 sm:hidden">
                 {socials.map((social) => (
                   <a
@@ -234,8 +234,8 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="flex-1 relative z-10 pt-20 sm:pt-24">
-        <section className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-22 sm:pb-24 text-center space-y-8">
+      <main className="flex-1 relative z-10 pt-24 sm:pt-26">
+        <section className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-22 sm:pb-24 text-center space-y-8">
           <div className="flex justify-center">
             <div className="h-36 w-36 rounded-full overflow-hidden border-2 border-slate-200 shadow-card">
               <Image src="/profile.png" alt="Profile photo" width={144} height={144} />
