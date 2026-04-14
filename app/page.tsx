@@ -238,7 +238,7 @@ export default function Home() {
         <section className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-22 sm:pb-24 text-center space-y-8">
           <div className="flex justify-center">
             <div className="h-36 w-36 rounded-full overflow-hidden border-2 border-slate-200 shadow-card">
-              <Image src="/profile.png" alt="Profile photo" width={144} height={144} />
+              <Image src="/portfolio1.png" alt="Profile photo" width={144} height={144} />
             </div>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight text-slate-900">
