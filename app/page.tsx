@@ -83,6 +83,16 @@ const marqueeSkills: SkillLogo[] = [
 
 const projects = [
   {
+<<<<<<< HEAD
+=======
+    title: "SAGE: AI Recruitment Platform",
+    summary:
+      "Full-stack hiring platform with CV parsing, job matching, AI-generated assessments, interview workflows, scoring, and an HR analytics dashboard.",
+    github: "https://github.com/abdullahkhan1122/Sage-Ai-Powered-Recruitment-Platform",
+    badge: "Django REST · React · MySQL · AI",
+  },
+  {
+>>>>>>> e9b7e1d (Added Projects)
     title: "AI-Powered Pitch Generator",
     summary:
       "Web app that crafts investor-ready startup pitches automatically with OpenAI + n8n automations.",
@@ -92,6 +102,7 @@ const projects = [
     
   },
   {
+<<<<<<< HEAD
     title: "Build-iT: Construction Bidding",
     summary: "Platform where clients post tenders and contractors bid with secure, role-based access.",
     github: "https://github.com/abdullahkhan1122/ClickNBuild",
@@ -103,6 +114,28 @@ const projects = [
     summary: "Centralized portal for attendance, marks, and records with Django ORM optimizations.",
     github: "https://github.com/abdullahkhan1122/Flexi-Student_Portal",
     badge: "Django · MySQL",
+=======
+    title: "ClickNBuild: Construction Bidding",
+    summary:
+      "Construction bidding and marketplace platform where clients post projects, builders submit bids, payments run through Stripe, and both sides manage reviews.",
+    github: "https://github.com/abdullahkhan1122/ClickNBuild",
+    badge: "Flask · Jinja2 · SQLAlchemy · MySQL · Stripe",
+
+  },
+  {
+    title: "Time-Off Microservice",
+    summary:
+      "NestJS API for employee leave requests with idempotent creation, role-based access, balance validation, HCM sync, and Jest/Supertest coverage.",
+    github: "https://github.com/abdullahkhan1122/time-off-microservice",
+    badge: "NestJS · SQLite · TypeORM · Jest",
+  },
+  {
+    title: "Flexi: University Portal",
+    summary:
+      "Django student portal inspired by FLEX and Google Classroom, with teacher resources, attendance, marks, student discussions, timetables, and scraping utilities.",
+    github: "https://github.com/abdullahkhan1122/Flexi-Student_Portal",
+    badge: "Django · HTML/CSS · SQLite/MySQL · Regex · Web Scraping",
+>>>>>>> e9b7e1d (Added Projects)
     
   },
   {
@@ -114,6 +147,16 @@ const projects = [
     
   },
   {
+<<<<<<< HEAD
+=======
+    title: "API Stress Test Lab",
+    summary:
+      "Flask demo comparing vulnerable and protected endpoints under load, using request delay simulation and rate limiting to show safer API behavior.",
+    github: "https://github.com/abdullahkhan1122/Api-Stress-Test",
+    badge: "Flask · Rate Limiting · API Security",
+  },
+  {
+>>>>>>> e9b7e1d (Added Projects)
     title: "Hospital Management System",
     summary:
       "C++ console system to manage doctors, patients, and appointments. Stores doctor/patient records and books visits by doctor ID.",
